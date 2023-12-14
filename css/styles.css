@@ -31,8 +31,9 @@ ul {
     letter-spacing: 0,78px;
     text-decoration: none;
     text-transform: uppercase
+
 }
-.accent {
+.header-logo .accent{
     color: var(--color-logo);
     font-family: Raleway;
     font-size: 18px;
@@ -41,7 +42,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+
 }
+
 .header-link {
     color: var(--color-primary);
     font-size: 16px;
