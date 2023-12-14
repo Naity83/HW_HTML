@@ -1,0 +1,216 @@
+:root {
+    --color-primary:#212121;
+    --color-secondary: #757575;
+    --color-brand: #2196F3;
+    --color-light: #FFFFFF;
+    --color-bg-dark:#2F303A;
+    --color-logo: #000000;
+    }
+body {
+    color: var(--color-primary);
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.header-logo {
+    color: var(--color-logo);
+    font-family: "Raleway" , sans-serif;   
+    font-size: 26px;    
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0,78px;
+    text-decoration: none;
+}
+.accent {
+    color: var(--color-brand);
+    font-family: "Raleway" , sans-serif;   
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0,78px;
+    text-decoration: none;
+}
+.header-link {
+    color: var(--color-primary);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    
+}
+.header-link:hover {
+    color: var(--color-brand);
+}
+.header-link:focus {
+    color: var(--color-brand);
+}
+.contact-link {
+    color: var(--color-secondary);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.contact-link:hover {
+    color: var(--color-brand);
+}
+.contact-link:focus {
+    color: var(--color-brand);
+}
+.hero-section {
+    background-color: var(--color-bg-dark);
+}
+.hero-title {
+    color: var(--color-light);    
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36; 
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--color-light);
+    border: none;
+    background-color: var(--color-brand);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    text-align: center;
+    cursor: pointer;
+    font-style: normal;
+}
+.hero-button:hover {
+    background-color: #188CE8;
+}
+.hero-button:focus {
+    background-color: #188CE8;
+}
+.benefit-title {
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.benefist-text {
+    color: var(--color-secondary);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.section-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.person-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.persons-job {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.footer-logo {
+    color: var(--color-light);
+    font-family: "Raleway" , sans-serif;   
+    font-size: 26px;    
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0,78px;
+    text-decoration: none;
+    font-style: normal;
+}
+.address-link {
+    color: var(--color-light);
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    font-style: normal;
+    
+}
+.footer-contacts-link {
+    color: #FFFFFF99;
+    line-height: 1.71; 
+    letter-spacing: 0.42px;
+    font-style: normal;
+
+}
+.footer {
+    background-color: var(--color-bg-dark);
+    font-style: normal;
+}
+.button {
+    color: var(--color-primary);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    
+}
+.button:hover {
+    color: var(--color-light);
+    background-color: var(--color-brand);
+}
+.button:focus {
+    color: var(--color-light);
+    background-color: var(--color-brand);
+}
+.project-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; 
+    letter-spacing: 1.08px;
+}
+.project-link {
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.87; 
+    letter-spacing: 0.48px;
+}
+.company {
+    background: #F5F4FA;
+}
+.company-color {
+    background-color: var(--color-light);
+}
+.address-link:hover {
+    color: var(--color-brand);
+}
+.address-link:focus {
+    color: var(--color-brand);
+}
+.footer-contacts-link:hover {
+    color: var(--color-brand);
+}
+.footer-contacts-link:focus {
+    color: var(--color-brand);
+}
+.section-color {
+    background: var(--color-light);
+}
+.footer-text {
+    
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
