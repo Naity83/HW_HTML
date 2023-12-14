@@ -1,5 +1,5 @@
 :root {
-    --color-primary:#212121;
+    --color-primary:#2E2F42;
     --color-secondary: #757575;
     --color-brand: #2196F3;
     --color-light: #FFFFFF;
@@ -44,10 +44,10 @@ ul {
 }
 .header-link {
     color: var(--color-primary);
+    font-size: 16px;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-decoration: none;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px
     
 }
 .header-link:hover {
