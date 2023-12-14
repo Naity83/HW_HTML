@@ -4,10 +4,13 @@
     --color-brand: #2196F3;
     --color-light: #FFFFFF;
     --color-bg-dark:#2F303A;
-    --color-logo: #000000;
+    --color-logo: #2E2F42;
+    --color-logo-logo:#4d5ae5;
+    
     }
 body {
-    color: var(--color-primary);
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto" , sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -19,23 +22,25 @@ ul {
     list-style-type: none;
 }
 .header-logo {
-    color: var(--color-logo);
+    color: var(--color-logo-logo);
     font-family: "Raleway" , sans-serif;   
-    font-size: 26px;    
-    font-weight: 700;
+    font-size: 18px;    
+    font-weight: 800;
     line-height: 1.17;
+    letter-spacing: 0.03;
     letter-spacing: 0,78px;
     text-decoration: none;
+    text-transform: uppercase
 }
 .accent {
-    color: var(--color-brand);
-    font-family: "Raleway" , sans-serif;   
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0,78px;
-    text-decoration: none;
+    color: var(--color-logo);
+    font-family: Raleway;
+    font-size: 18px;
+    ont-style: normal;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .header-link {
     color: var(--color-primary);
