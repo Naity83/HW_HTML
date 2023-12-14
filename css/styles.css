@@ -1,11 +1,13 @@
 :root {
     --color-primary:#2E2F42;
-    --color-secondary: #757575;
-    --color-brand: #2196F3;
-    --color-light: #FFFFFF;
-    --color-bg-dark:#2F303A;
-    --color-logo: #2E2F42;
-    --color-logo-logo:#4d5ae5;
+    --color-secondary: #434455;
+    --color-brand: #404bbf;
+    --color-light: #FFF;
+    --color-bg-dark:#2E2F42;
+    --color-footer: #F4F4FD;
+    
+    
+    --color-logo:#4d5ae5;
     
     }
 body {
@@ -18,23 +20,27 @@ body {
 a {
     text-decoration: none;
 }
-ul {
-    list-style-type: none;
+link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 .header-logo {
-    color: var(--color-logo-logo);
+    color: var(--color-logo);
     font-family: "Raleway" , sans-serif;   
     font-size: 18px;    
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.03;
-    letter-spacing: 0,78px;
-    text-decoration: none;
-    text-transform: uppercase
+    letter-spacing: 0.03em;
+    letter-spacing: 0,78px;    
+    text-transform: uppercase;
+    
 
 }
-.header-logo .accent{
-    color: var(--color-logo);
+.accent{
+    color: var(--color-primary);
     font-family: Raleway;
     font-size: 18px;
     ont-style: normal;
@@ -50,7 +56,8 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.32px
+    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     
 }
 .header-link:hover {
@@ -59,11 +66,18 @@ ul {
 .header-link:focus {
     color: var(--color-brand);
 }
+
+.adress-link {
+    font-style: normal;
+}
 .contact-link {
     color: var(--color-secondary);
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.32px;
+    
 }
 .contact-link:hover {
     color: var(--color-brand);
@@ -77,63 +91,71 @@ ul {
 .hero-title {
     color: var(--color-light);    
     text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36; 
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
 }
 .hero-button {
     color: var(--color-light);
     border: none;
-    background-color: var(--color-brand);
+    font-family: Roboto;
     font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.96px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.64px;    
+    background-color:var(--color-logo);    
     text-align: center;
     cursor: pointer;
     font-style: normal;
 }
 .hero-button:hover {
-    background-color: #188CE8;
+    background-color: var(--color-brand);
 }
 .hero-button:focus {
-    background-color: #188CE8;
+    background-color: var(--color-brand);
 }
 .benefit-title {
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2px; /* 120% */
+    letter-spacing: 0.02em;
 }
 .benefist-text {
     color: var(--color-secondary);
+    font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.42px;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.02em;
 }
 .section-title {
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1px; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-primary);
 }
 .person-name {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.48px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.4px;
+    color: var(--color-primary)
 }
 
 .persons-job {
-    color: var(--color-secondary);
     text-align: center;
     font-size: 16px;
-    line-height: normal;
-    letter-spacing: 0.48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
 }
 .footer-logo {
     color: var(--color-light);
@@ -160,7 +182,7 @@ letter-spacing: 1.08px;
 
 }
 .footer {
-    background-color: var(--color-bg-dark);
+    background-color: var(--color-primary);
     font-style: normal;
 }
 .button {
@@ -196,7 +218,7 @@ letter-spacing: 1.08px;
     letter-spacing: 0.48px;
 }
 .company {
-    background: #F5F4FA;
+    background: #F4F4FD;
 }
 .company-color {
     background-color: var(--color-light);
@@ -217,7 +239,7 @@ letter-spacing: 1.08px;
     background: var(--color-light);
 }
 .footer-text {
-    
+    color: var(--color-footer);
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
